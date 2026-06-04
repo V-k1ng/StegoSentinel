@@ -1,0 +1,18 @@
+# Виртуальное окружение
+.venv/
+__pycache__/
+*.pyc
+
+# Папки сборщика PyInstaller
+build/
+dist/
+*.spec
+
+# Тяжелые данные (Датасеты)
+dataset/
+pgm_data/
+
+# Веса моделей и временные карты детекции
+*.pth
+*.safetensors
+temp_scan_map.png
